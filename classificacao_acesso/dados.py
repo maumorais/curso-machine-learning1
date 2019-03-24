@@ -4,7 +4,7 @@ def carregar_acessos():
     X = []
     Y = []
 
-    arquivo = open('../download/classificacao/acesso.csv','r')
+    arquivo = open('../download/acesso.csv','r')
     leitor = csv.reader(arquivo)
     next(leitor)
 
@@ -20,7 +20,3 @@ def carregar_acessos():
     """
 
     return X, Y
-
-
-carregar_acessos()
-    
